@@ -1,0 +1,59 @@
+.dashboard {
+    background-color: #fff;
+    padding: 20px;
+}
+
+.dashboard-title {
+    background-color: rgb(237, 204, 104);
+    margin: 0 0 20px;
+    font-size: 24px;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.dashboard-cards {
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(2, 1fr); /* First row with 2 columns */
+    padding-bottom: 20px;
+}
+.dashboard-cards-secondrow{
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(3, 1fr); /* First row with 2 columns */
+}
+
+
+
+.card {
+    flex: 1;
+    min-width: calc(50% - 20px); /* Adjust width for 2 cards in the first row */
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.dashboard-cards .card:nth-child(n+1) {
+    min-width: calc(33.33% - 20px); /* Adjust width for 3 cards in the second row */
+}
+.second_row{
+    display: grid;
+    grid-template-columns: (3,1fr);
+}
+.card img {
+    height: 50px;
+    margin-bottom: 10px;
+}
+
+.card h3 {
+    margin: 0 0 10px;
+    font-size: 24px;
+}
+
+.card p {
+    margin: 0;
+    color: #7f8c8d;
+}

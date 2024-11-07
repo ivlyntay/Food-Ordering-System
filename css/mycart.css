@@ -1,0 +1,41 @@
+h2{
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+.table-header{
+    background-color: #f2f2f2 !important;
+}
+h3 {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+.order-summary {
+    padding: 20px;
+}
+
+.order-summary .total {
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+}
+.place-order-btn {
+    display: block;
+    padding: 10px;
+    background-color: rgb(253, 251, 122);
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 20px;
+    border: 1px solid #ccc;
+}
+
+.place-order-btn:hover {
+    background-color: #ffca28;
+}
+.continue-ordering {
+    padding-right: 1.5rem;
+    display: block;
+    color: black;
+    text-decoration: none;
+} 

@@ -1,0 +1,33 @@
+h1 {
+    text-align: center;
+    margin: 20px;
+    font-weight: bold;
+}
+.orders-table {
+    border-style: dashed;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    border-color:gray;
+}
+.orders-table th {
+    background-color: #ffec99;
+}
+.container {
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.badge {
+    width:100%;
+}
+.Served {
+    background-color: #4caf50;
+}
+
+.Processing {
+    background-color: #ff9800;
+}
+
+.Cancelled {
+    background-color: #f44336;
+}
