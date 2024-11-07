@@ -1,4 +1,4 @@
-##Technologies
+## Technologies
 PHP, HTML5, SQL, JavaScript, CSS
 
 ## Project Overview
